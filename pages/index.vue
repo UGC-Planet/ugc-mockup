@@ -74,15 +74,11 @@
 </template>
 
 <script>
-    //import databaseCharts from '../components/charts/homeCharts/databaseCharts.vue'
-
-    export default {
-        //components: { databaseCharts }
-    }
+    export default {}
 </script>
 
 <script setup>
     useHead({
-        title: 'Amazon Starter Template',
+        title: 'Starter Template',
     })
 </script>

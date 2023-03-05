@@ -26,7 +26,6 @@ export default defineNuxtConfig({
     '@nuxtjs/apollo',
     //'@sidebase/nuxt-auth',
     '@nuxt/content',
-    //'@nuxtjs/i18n',
     'nuxt-meilisearch',
   ],
   
@@ -56,31 +55,6 @@ export default defineNuxtConfig({
       theme: 'algolia'
     }
  },
-
-/*  i18n: {
-    strategy: 'no_prefix',
-    en: { pathMatch: ['not-found-my-post'] },
-    fr: { pathMatch: ['not-found-mon-article'] },
-    locales: [
-      {
-        code: 'en',
-        name: 'English'
-      },
-      {
-        code: 'es',
-        name: 'Español'
-      },
-      {
-        code: 'fr',
-        name: 'Français'
-      }
-    ],
-    skipSettingLocaleOnNavigate: true,
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieCrossOrigin: true
-    }
-  }, */
 
   apollo: {
     clients: {

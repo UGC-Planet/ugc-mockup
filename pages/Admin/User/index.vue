@@ -5,15 +5,9 @@
 </template>
 
 <script>
-    import preferences from '~/components/user/preferences.vue'
 
     export default {
-        components: {
-            preferences,
-        },
-        data: () => ({
-            tab: 'option-1',
-        }),
+        
     }
 </script>
 
