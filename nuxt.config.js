@@ -1,7 +1,19 @@
-//import { defineNuxtConfig } from 'nuxt'
+import {
+  defineNuxtConfig
+} from 'nuxt/config'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      script: [{
+        src: process.env.NUXT_PUBLIC_UMAMI_HOST,
+        async: true,
+        'data-website-id': process.env.NUXT_PUBLIC_UMAMI_ID
+      }],
+    },
+  },
+
   extends: ['@sidebase/core'],
 
   css: [
@@ -15,60 +27,66 @@ export default defineNuxtConfig({
     'vuetify/lib/styles/main.sass',
     '@mdi/font/css/materialdesignicons.min.css',
     '@fortawesome/fontawesome-svg-core/styles.css',
+    'assets/commerce/css/ui.css',
     'assets/styles/styles.css',
   ],
 
-  scripts: [
-    {src: 'https://kit.fontawesome.com/5f36ca3a3b.js', crossorigin: 'anonymous'},
-  ],
-
   modules: [
-    '@nuxtjs/apollo',
-    //'@sidebase/nuxt-auth',
+    //'nuxt-graphql-client',
     '@nuxt/content',
     'nuxt-meilisearch',
+    'nuxt-directus',
+    '@nuxtjs/apollo',
+    ["@storyblok/nuxt", { accessToken: process.env.accessToken }]
   ],
-  
-/*
-  auth: {
-    // The module is enabled. Change this to disable the module
-    isEnabled: false,
-    // The origin is set to the development origin. Change this when deploying to production
-    origin: 'http://localhost:3000',
-    // The base path to the authentication endpoints. Change this if you want to add your auth-endpoints at a non-default location
-    basePath: '/api/auth',
-    // Whether to periodically refresh the session. Change this to `true` for a refresh every seconds or set this to a number like `5000` for a refresh every 5000 milliseconds (aka: 5 seconds)
-    enableSessionRefreshPeriodically: true,
-    // Whether to refresh the session whenever a window focus event happens, i.e, when your user refocuses the window. Set this to `false` to turn this off
-    enableSessionRefreshOnWindowFocus: true,
-    // Whether to add a global authentication middleware that will protect all pages without exclusion
-    enableGlobalAppMiddleware: false
-  }, 
-  */
+
+  directus: {
+    url: process.env.DIRECTUS_URL,
+    auth: {
+      email: process.env.DIRECTUS_EMAIL,
+      password: process.env.DIRECTUS_PASSWORD,
+      token: process.env.DIRECTUS_TOKEN,
+    }
+  },
 
   meilisearch: {
-    hostUrl:  process.env.SEARCH_API,
-    searchApiKey: process.env.searchApiKey,
-    adminApiKey: process.env.adminApiKey,
+    hostUrl: process.env.HOSTURL,
+    searchApiKey: process.env.SEARCH_APIKEY,
+    adminApiKey: process.env.ADMIN_APIKEY,
     serverSideUsage: true,
     instantSearch: {
       theme: 'algolia'
     }
- },
+  },
 
   apollo: {
+    authType: "Bearer",
+    authHeader: "Authorization",
+    tokenStorage: "cookie",
     clients: {
       default: {
-        httpEndpoint: 'http://localhost:4000/graphql',
-      }
+        tokenName: "apollo-token",
+        httpEndpoint: process.env.STORYBLOK_URL,
+        httpLinkOptions: {
+          headers: {
+            //'Authorization': process.env.STORYBLOK_TOKEN,
+            token: process.env.STORYBLOK_TOKEN,
+            version: 'publish'
+          }
+        }/* */
+      },
     },
   },
 
   build: {
     transpile: [
       'vuetify',
+      '@apollo/client',
+      'ts-invariant/process',
       "@fortawesome/vue-fontawesome",
       "@fortawesome/fontawesome-svg-core",
+      "@fortawesome/pro-solid-svg-icons",
+      "@fortawesome/pro-regular-svg-icons",
       "@fortawesome/free-brands-svg-icons",
     ],
   },

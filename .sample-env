@@ -2,36 +2,57 @@
 
 # Database URL
 
-DATABASE_URL='postgresql://{env.DB_USER}:{env.DB_PASSWORD}@{env.DB_HOST}:{env.DB_PORT}/{env.DB_DATABASE}'
+DATABASE_URL=''
+
+TEST_URL=''
+
+MY_SQL=''
+
+SQLITE_URL='file://server/config/database/main.db'
 
 # Supabase URL and Credentials (Supabase is not required, but recommended)
 
-YOUR_SUPABASE_URL=""
-YOUR_SUPABASE_KEY=""
+YOUR_SUPABASE_URL=''
+YOUR_SUPABASE_KEY=''
 
 # DATABASE DETAILS
 
-DB_Client=""
-DB_HOST=""
-DB_PORT="5432"
-DB_USER=""
-DB_PASSWORD=""
-DB_DATABASE=""
+DB_HOST=''
+DB_PORT=''
+DB_USER=''
+DB_PASSWORD=''
+DB_DATABASE='postgres'
+DB_SCHEMA=''
+DB_SSL=false
 
-# SQLITE3 Filename
+# Directus Credentials
 
-SQLITE_FILENAME="./mydb.sqlite"
+DIRECTUS_URL='http://meeovicms.com:00000/'
+DIRECTUS_TOKEN='-'
+DIRECTUS_EMAIL=
+DIRECTUS_PASSWORD=
 
-# SENTRY Integration
+# Meilisearch Credentials
+
+HOSTURL='https://meeovicms.com:7777/'
+SEARCH_APIKEY='<your_public_key>'
+ADMIN_APIKEY='<your_secret_key>'
+
+# Storyblok Credentials
+
+STORYBLOK_URL='https://gapi.storyblok.com/v1/api'
+STORYBLOK_TOKEN=''
+
+# Sentry Credentials
 
 SENTRY_DSN=''
 
-# GRAPHQL Endpoint
+# Graphql Endpoint
 
-GRAPHQL_ENDPOINT=''
+GQL_HOST='http://localhost:8087/v1/graphql'
+GQL_HEADERS=''
 
-# Meilisearch Endpoint
+# Keycloak Credentials
 
-SEARCH_API='http://my-meilisearch-server.domain.com'
-searchApiKey=''
-adminApiKey=''
+KEYCLOAK_API_URL='https://meeovicms.com:1000'
+KEYCLOAK_CLIENTID=''
