@@ -6,9 +6,9 @@
           <v-icon start icon="fas fa-bars"></v-icon> Menu
         </v-btn>
       </template>
-      
+
       <v-app-bar-title><a class="logobrand" href="/">
-          <v-icon start icon="fas fa-hurricane"></v-icon>Logo
+          <v-icon start icon="fas fa-question-circle"></v-icon> Logo
         </a></v-app-bar-title>
 
       <v-text-field density="compact" variant="solo" label="Search" append-inner-icon="fas fa-search" single-line
@@ -23,13 +23,13 @@
           <v-menu :location="location" transition="slide-y-transition">
             <template v-slot:activator="{ props }">
               <v-btn variant="flat" v-bind="props">
-                <v-icon start icon="fas fa-bell"></v-icon>
+                <v-icon start icon="fas fa-clock-rotate-left"></v-icon>
               </v-btn>
             </template>
             <v-list>
               <v-list-item title="" value="" href="/"></v-list-item>
               <v-divider></v-divider>
-              <v-list-item title="All Notifications" value="notifications" href="/admin/user/notifications">
+              <v-list-item title="Show More" value="Show More" href="/admin/user/notifications">
               </v-list-item>
             </v-list>
           </v-menu>
@@ -57,35 +57,22 @@
     <v-main>
       <v-card>
         <v-layout>
-          <v-navigation-drawer class="sidebarSection" v-model="drawer" temporary>
-            <v-list-item prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg" title="John Leider" nav>
-              <template v-slot:append>
-                <v-btn variant="text" icon="fas fa-chevron-left" @click.stop="rail = !rail"></v-btn>
-              </template>
-            </v-list-item>
-
-            <v-list density="compact" nav>
-              <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
-              <v-list-group prepend-icon="fas fa-feather-pointed" value="content manager">
-                <template v-slot:activator="{ props }">
-                  <v-list-item v-bind="props" title="Content Manager"></v-list-item>
-                </template>
-                <v-list-item prepend-icon="fas fa-feather" title="Blog" value="Blog" href="/Admin/Content/Blog">
-                </v-list-item>
-              </v-list-group>
-              <v-list-item prepend-icon="fas fa-user" title="Customers" value="Customers" href="/Admin/Customers">
-              </v-list-item>
-              <v-list-item prepend-icon="fas fa-gear" title="Settings" value="settings"
-                href="/Admin/Settings/general-settings"></v-list-item>
-            </v-list>
-
+          <v-navigation-drawer v-model="drawer" temporary>
+            <v-list-item title="Home" href="/"></v-list-item>
+            <v-expansion-panels variant="accordion">
+            <v-expansion-panel title="Departments" expand-icon="fas fa-plus" collapse-icon="fas fa-minus" elevation="0">
+                <v-expansion-panel-text>
+                    <div v-for="departments in data.collections.items" :key="departments.id">
+                        <v-list-item :title="departments.name" :value="departments.name"
+                            :href="`/departments/${departments.slug}`">
+                        </v-list-item>
+                    </div>
+                </v-expansion-panel-text>
+            </v-expansion-panel>
+        </v-expansion-panels>
+            <v-list-item title="" href="/projects/"></v-list-item>
+            <v-list-item title="" href="/lists/"></v-list-item>
             <v-spacer></v-spacer>
-
-              <div class="pa-2">
-                <v-btn block>
-                  Logout
-                </v-btn>
-              </div>
           </v-navigation-drawer>
           <v-main id="sidebarNav"></v-main>
           <main id="mainSection">
@@ -93,17 +80,19 @@
           </main>
         </v-layout>
       </v-card>
-      <FooterNav />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import search from '../components/Search/search.vue'
-import ecosystemmenu from '../components/ecosystemmenu.vue'
+  import search from '../components/Search/search.vue'
+  import ecosystemmenu from '../components/Menus/ecosystemmenu.vue'
 
   export default {
-  components: { ecosystemmenu, search },
+    components: {
+      ecosystemmenu,
+      search
+    },
     data() {
       return {
         drawer: null,
@@ -137,5 +126,4 @@ import ecosystemmenu from '../components/ecosystemmenu.vue'
   function onClick() {
     theme.value = theme.value === 'light' ? 'dark' : 'light'
   };
-
 </script>
