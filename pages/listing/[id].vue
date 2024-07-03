@@ -1,11 +1,6 @@
 <template>
     <div>
         <section data-bs-version="5.1" class="video01 modelm5 cid-uhtrMswMuS" id="video01-s">
-
-
-
-
-
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -15,7 +10,7 @@
                         </div>
                         <div class="box">
                             <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
-                                <img src="../assets/images/background2.jpg" alt="">
+                                <img src="../../assets/images/background2.jpg" alt="">
                                 <div class="icon-wrap">
                                     <span class="mbr-iconfont mobi-mbri-play mobi-mbri"></span>
                                 </div>
