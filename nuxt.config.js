@@ -4,17 +4,59 @@ import {
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: false },
   app: {
     head: {
-      script: [{
-        src: process.env.NUXT_PUBLIC_UMAMI_HOST,
-        async: true,
-        'data-website-id': process.env.NUXT_PUBLIC_UMAMI_ID
-      }],
+      viewport: 'minimum-scale=1, initial-scale=1, width=device-width',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [{
+          name: 'description',
+          content: 'Platform for Creators'
+        },
+      ],
+      link: [{
+          rel: 'icon',
+          href: '/favicon.ico'
+        },
+        {
+          rel: 'apple-touch-icon',
+          href: '/icons/apple-touch-icon-180x180.png'
+        },
+      ],
+      script: [/*{
+        src: 'https://platform-api.sharethis.com/js/sharethis.js#property=63155c574a688f00124a59c2&product=sticky-share-buttons',
+        async: 'async',
+        crossorigin: 'anonymous'
+      }, 
+      {
+        src: 'https://js.stripe.com/v3/',
+        defer: true,
+        crossorigin: 'anonymous'
+      }*/
+        {
+          src: 'assets/bootstrap/js/bootstrap.bundle.min.js',
+        },
+        {
+          src: 'assets/smoothscroll/smooth-scroll.js',
+        },
+        {
+          src: 'assets/ytplayer/index.js',
+        },
+        {
+          src: 'assets/dropdown/js/navbar-dropdown.js',
+        },
+        {
+          src: 'assets/theme/js/script.js',
+        }
+    ],
     },
   },
 
-  extends: ['@sidebase/core'],
+  appConfig: {
+    titleSuffix: 'UGC Planet',
+  },
 
   css: [
     'assets/web/assets/mobirise-icons2/mobirise2.css',
@@ -34,32 +76,10 @@ export default defineNuxtConfig({
   modules: [
     //'nuxt-graphql-client',
     '@nuxt/content',
-    'nuxt-meilisearch',
-    'nuxt-directus',
     '@nuxtjs/apollo',
-    ["@storyblok/nuxt", { accessToken: process.env.accessToken }]
   ],
 
-  directus: {
-    url: process.env.DIRECTUS_URL,
-    auth: {
-      email: process.env.DIRECTUS_EMAIL,
-      password: process.env.DIRECTUS_PASSWORD,
-      token: process.env.DIRECTUS_TOKEN,
-    }
-  },
-
-  meilisearch: {
-    hostUrl: process.env.HOSTURL,
-    searchApiKey: process.env.SEARCH_APIKEY,
-    adminApiKey: process.env.ADMIN_APIKEY,
-    serverSideUsage: true,
-    instantSearch: {
-      theme: 'algolia'
-    }
-  },
-
-  apollo: {
+  /*apollo: {
     authType: "Bearer",
     authHeader: "Authorization",
     tokenStorage: "cookie",
@@ -73,10 +93,10 @@ export default defineNuxtConfig({
             token: process.env.STORYBLOK_TOKEN,
             version: 'publish'
           }
-        }/* */
+        } 
       },
     },
-  },
+  },*/
 
   build: {
     transpile: [

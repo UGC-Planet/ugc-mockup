@@ -78,7 +78,6 @@ declare global {
   const updateAppConfig: typeof import('../../node_modules/nuxt/dist/app')['updateAppConfig']
   const useAppConfig: typeof import('../../node_modules/nuxt/dist/app')['useAppConfig']
   const useAsyncData: typeof import('../../node_modules/nuxt/dist/app')['useAsyncData']
-  const useAsyncGql: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useAsyncGql']
   const useAttrs: typeof import('vue')['useAttrs']
   const useContent: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']
   const useContentHead: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']
@@ -87,30 +86,12 @@ declare global {
   const useCookie: typeof import('../../node_modules/nuxt/dist/app')['useCookie']
   const useCssModule: typeof import('vue')['useCssModule']
   const useCssVars: typeof import('vue')['useCssVars']
-  const useDirectus: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectus')['useDirectus']
-  const useDirectusAuth: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusAuth')['useDirectusAuth']
-  const useDirectusCollections: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusCollections')['useDirectusCollections']
-  const useDirectusFiles: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusFiles')['useDirectusFiles']
-  const useDirectusItems: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusItems')['useDirectusItems']
-  const useDirectusNotifications: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusNotifications')['useDirectusNotifications']
-  const useDirectusRevisions: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusRevisions')['useDirectusRevisions']
-  const useDirectusToken: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusToken')['useDirectusToken']
-  const useDirectusUrl: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUrl')['useDirectusUrl']
-  const useDirectusUser: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUser')['useDirectusUser']
-  const useDirectusUsers: typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUsers')['useDirectusUsers']
   const useError: typeof import('../../node_modules/nuxt/dist/app')['useError']
   const useFetch: typeof import('../../node_modules/nuxt/dist/app')['useFetch']
-  const useGql: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGql']
-  const useGqlCors: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlCors']
-  const useGqlError: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlError']
-  const useGqlHeaders: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlHeaders']
-  const useGqlHost: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlHost']
-  const useGqlToken: typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlToken']
   const useHead: typeof import('../../node_modules/nuxt/dist/app')['useHead']
   const useLazyAsyncData: typeof import('../../node_modules/nuxt/dist/app')['useLazyAsyncData']
   const useLazyFetch: typeof import('../../node_modules/nuxt/dist/app')['useLazyFetch']
   const useLink: typeof import('vue-router')['useLink']
-  const useMeilisearchClient: typeof import('../../node_modules/nuxt-meilisearch/dist/runtime/composables/useMeilisearchClient')['useMeilisearchClient']
   const useNuxtApp: typeof import('../../node_modules/nuxt/dist/app')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/nuxt/dist/app')['useNuxtData']
   const useRequestEvent: typeof import('../../node_modules/nuxt/dist/app')['useRequestEvent']
@@ -221,7 +202,6 @@ declare module 'vue' {
     readonly updateAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['updateAppConfig']>
     readonly useAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAppConfig']>
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAsyncData']>
-    readonly useAsyncGql: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useAsyncGql']>
     readonly useAttrs: UnwrapRef<typeof import('vue')['useAttrs']>
     readonly useContent: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']>
     readonly useContentHead: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']>
@@ -230,30 +210,12 @@ declare module 'vue' {
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useCookie']>
     readonly useCssModule: UnwrapRef<typeof import('vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('vue')['useCssVars']>
-    readonly useDirectus: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectus')['useDirectus']>
-    readonly useDirectusAuth: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusAuth')['useDirectusAuth']>
-    readonly useDirectusCollections: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusCollections')['useDirectusCollections']>
-    readonly useDirectusFiles: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusFiles')['useDirectusFiles']>
-    readonly useDirectusItems: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusItems')['useDirectusItems']>
-    readonly useDirectusNotifications: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusNotifications')['useDirectusNotifications']>
-    readonly useDirectusRevisions: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusRevisions')['useDirectusRevisions']>
-    readonly useDirectusToken: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusToken')['useDirectusToken']>
-    readonly useDirectusUrl: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUrl')['useDirectusUrl']>
-    readonly useDirectusUser: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUser')['useDirectusUser']>
-    readonly useDirectusUsers: UnwrapRef<typeof import('../../node_modules/nuxt-directus/dist/runtime/composables/useDirectusUsers')['useDirectusUsers']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useError']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useFetch']>
-    readonly useGql: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGql']>
-    readonly useGqlCors: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlCors']>
-    readonly useGqlError: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlError']>
-    readonly useGqlHeaders: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlHeaders']>
-    readonly useGqlHost: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlHost']>
-    readonly useGqlToken: UnwrapRef<typeof import('../../node_modules/nuxt-graphql-client/dist/runtime/composables/index')['useGqlToken']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useHead']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyAsyncData']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyFetch']>
     readonly useLink: UnwrapRef<typeof import('vue-router')['useLink']>
-    readonly useMeilisearchClient: UnwrapRef<typeof import('../../node_modules/nuxt-meilisearch/dist/runtime/composables/useMeilisearchClient')['useMeilisearchClient']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtData']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestEvent']>
