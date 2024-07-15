@@ -37,13 +37,22 @@
                 </section>
 
                 <section data-bs-version="5.1" class="team1 cid-uhtmoW4nHr" id="team1-h">
-                    <v-toolbar title="3 Creators" color="transparent">
-                        <div class="d-flex justify-center align-center h-100">
-                            <v-btn color="primary" @click.stop="drawer = !drawer" size="x-large" style="margin: 10px;">
-                                Filter
-                            </v-btn>
-                        </div>
-                    </v-toolbar>
+                    <v-toolbar color="transparent">
+                            <v-toolbar-title>
+                                <div class="mbr-section-head pb-4">
+                                    <h4 class="mbr-section-title mbr-fonts-style align-left mb-0 display-5">Creators
+                                    </h4>
+
+                                </div>
+                            </v-toolbar-title>
+
+                            <div class="d-flex justify-center align-center h-100">
+                                <v-btn color="primary" @click.stop="drawer = !drawer" size="x-large"
+                                    style="margin: 10px;">
+                                    Filter
+                                </v-btn>
+                            </div>
+                        </v-toolbar>
                     <v-row>
                         <v-col cols="6">
                             <iframe style="height:100%;width:100%;border:0;" frameborder="0"
@@ -66,7 +75,7 @@
                                                         <div class="box-name">
                                                             <p class="mbr-text mbr-fonts-style display-7">John Deer</p>
                                                             <p class="mbr-text mbr-fonts-style display-7">
-                                                                <em>Manager</em></p>
+                                                                <em>Creator</em></p>
                                                         </div>
                                                     </div>
                                                     <div class="box-row">
@@ -99,7 +108,7 @@
                                                         <div class="box-name">
                                                             <p class="mbr-text mbr-fonts-style display-7">Susan Wolf</p>
                                                             <p class="mbr-text mbr-fonts-style display-7">
-                                                                <em>Recruiter</em></p>
+                                                                <em>Creator</em></p>
                                                         </div>
                                                     </div>
                                                     <div class="box-row">
@@ -131,7 +140,7 @@
                                                     <div class="box-row">
                                                         <div class="box-name">
                                                             <p class="mbr-text mbr-fonts-style display-7">Bob marley</p>
-                                                            <p class="mbr-text mbr-fonts-style display-7"><em>Agent</em>
+                                                            <p class="mbr-text mbr-fonts-style display-7"><em>Creator</em>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -177,6 +186,6 @@
 
 <script setup>
     useHead({
-        title: ''
+        title: 'Creators'
     })
 </script>

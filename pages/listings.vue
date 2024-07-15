@@ -64,14 +64,23 @@
                 </section>
 
                 <section data-bs-version="5.1" class="features03 healthm5 cid-uhto36KIrZ" id="features03-l">
-                    <v-toolbar title="4 Listings" color="transparent">
-                        <div class="d-flex justify-center align-center h-100">
-                            <v-btn color="primary" @click.stop="drawer = !drawer" size="x-large" style="margin: 10px;">
-                                Filter
-                            </v-btn>
-                        </div>
-                    </v-toolbar>
                     <div class="container-fluid">
+                        <v-toolbar color="transparent">
+                            <v-toolbar-title>
+                                <div class="mbr-section-head pb-4">
+                                    <h4 class="mbr-section-title mbr-fonts-style align-left mb-0 display-5">Listings
+                                    </h4>
+
+                                </div>
+                            </v-toolbar-title>
+
+                            <div class="d-flex justify-center align-center h-100">
+                                <v-btn color="primary" @click.stop="drawer = !drawer" size="x-large"
+                                    style="margin: 10px;">
+                                    Filter
+                                </v-btn>
+                            </div>
+                        </v-toolbar>
                         <div class="row">
                             <div class="col-12">
                                 <div class="items-wrapper">
@@ -88,7 +97,7 @@
                                                         <div class="rating-content">
 
                                                             <p class="item-name mbr-fonts-style display-4">
-                                                               Ad by Judy Parker
+                                                                Ad by Judy Parker
                                                             </p>
                                                         </div>
                                                     </div>
@@ -193,6 +202,6 @@
 
 <script setup>
     useHead({
-        title: ''
+        title: 'Listings'
     })
 </script>

@@ -1,0 +1,425 @@
+<template>
+    <div>
+        <section data-bs-version="5.1" class="header11 cid-sFF0SGinka" id="header11-1">
+
+
+
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 image-wrapper">
+                        <img class="w-100" src="../../assets/images/mbr.jpeg" alt="">
+                    </div>
+                    <div class="col-12 col-md">
+                        <div class="text-wrapper text-center">
+                            <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
+                                <strong>
+                                </strong>
+                                <div><strong><br></strong></div>
+                                <div><strong>Hi, I'm Jessica Brown and I'm a Designer</strong></div>
+                            </h1>
+                            <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis
+                                sollicitudin mollis, elit enim aliquet lorem.&nbsp;</p>
+                            <v-toolbar color="transparent">
+                                <v-list-item title="Language" subtitle="English"></v-list-item>
+
+                                <v-list-item title="Location" subtitle="London, England"></v-list-item>
+
+                                <v-list-item title="Social Media">
+                                    <v-btn title="Facebook" href="" variant="text"><img
+                                            src="../../assets/images/Facebook.svg" alt="UGC Planet Facebook">
+                                    </v-btn>
+                                    <v-btn title="Twitter" href="" variant="text"><img
+                                            src="../../assets/images/Twitter.svg" alt="UGC Planet Twitter"
+                                            variant="text"></v-btn>
+                                    <v-btn title="Instagram" href="" variant="text"><img
+                                            src="../../assets/images/Instagram.svg" alt="UGC Planet Intagram"
+                                            variant="text"></v-btn>
+                                    <v-btn title="Pinterest" href="" variant="text"><img
+                                            src="../../assets/images/Pinterest.svg" alt="UGC Planet Pinterest"
+                                            variant="text"></v-btn>
+                                    <v-btn title="YouTube" href="" variant="text"><img
+                                            src="../../assets/images/YouTube.svg" alt="UGC Planet YouTube"
+                                            variant="text"></v-btn>
+                                    <v-btn title="TikTok" href="" variant="text"><img src="../../assets/images/Tiktok.svg"
+                                            alt="UGC Planet TikTok"></v-btn>
+                                </v-list-item>
+                            </v-toolbar>
+                            <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7"
+                                    href="index.html#gallery5-3">Send a Message</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="features12 cid-sFF3eJNZDT" id="features13-2">
+
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="card-wrapper">
+                            <div class="card-box align-left">
+                                <h4 class="card-title mbr-fonts-style mb-4 display-1"><strong>What can i do?</strong>
+                                </h4>
+                                <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque
+                                    vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem.</p>
+                                <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="#">See my
+                                        Listings</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="item mbr-flex">
+                            <div class="icon-box">
+                                <span class="mbr-iconfont mobi-mbri-globe-2 mobi-mbri"></span>
+                            </div>
+                            <div class="text-box">
+                                <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                    <strong>Web Design</strong></h4>
+                                <h5 class="icon-text mbr-black mbr-fonts-style display-4">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque
+                                    vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem,&nbsp;</h5>
+                            </div>
+                        </div>
+                        <div class="item mbr-flex">
+                            <div class="icon-box">
+                                <span class="mbr-iconfont mobi-mbri-idea mobi-mbri"></span>
+                            </div>
+                            <div class="text-box">
+                                <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                    <strong>Art Design</strong></h4>
+                                <h5 class="icon-text mbr-black mbr-fonts-style display-4">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque
+                                    vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem,&nbsp;</h5>
+                            </div>
+                        </div>
+                        <div class="item mbr-flex">
+                            <div class="icon-box">
+                                <span class="mbr-iconfont mobi-mbri-photo mobi-mbri"
+                                    style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                            </div>
+                            <div class="text-box">
+                                <h4 class="icon-title mbr-black mbr-fonts-style display-7"><strong>Polygraphic
+                                        Design</strong></h4>
+                                <h5 class="icon-text mbr-black mbr-fonts-style display-4">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque
+                                    vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem,&nbsp;</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="gallery5 mbr-gallery cid-sFF3kfZheU" id="gallery5-3">
+
+
+
+
+            <div class="container">
+                <div class="mbr-section-head">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center m-0 display-2"><strong>My Works</strong>
+                    </h3>
+                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Lorem ipsum dolor
+                        sit amet</h4>
+                </div>
+                <div class="row mbr-gallery mt-4">
+                    <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                        <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal"
+                            data-target="#ui8x5w6Dsp-modal" data-bs-target="#ui8x5w6Dsp-modal">
+                            <img class="w-100" src="../../assets/images/mbr-596x397.jpg" alt="" data-slide-to="0"
+                                data-bs-slide-to="0" data-target="#lb-ui8x5w6Dsp" data-bs-target="#lb-ui8x5w6Dsp">
+                            <div class="icon-wrapper">
+                                <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                            </div>
+                        </div>
+                        <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7"><strong>Mobile
+                                Design</strong></h6>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                        <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal"
+                            data-target="#ui8x5w6Dsp-modal" data-bs-target="#ui8x5w6Dsp-modal">
+                            <img class="w-100" src="../../assets/images/mbr-3.jpg" alt="" data-slide-to="1"
+                                data-bs-slide-to="1" data-target="#lb-ui8x5w6Dsp" data-bs-target="#lb-ui8x5w6Dsp">
+                            <div class="icon-wrapper">
+                                <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                            </div>
+                        </div>
+                        <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">
+                            <strong>Polygraphic Design</strong></h6>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                        <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal"
+                            data-target="#ui8x5w6Dsp-modal" data-bs-target="#ui8x5w6Dsp-modal">
+                            <img class="w-100" src="../../assets/images/mbr-4.jpg" alt="" data-slide-to="2"
+                                data-bs-slide-to="2" data-target="#lb-ui8x5w6Dsp" data-bs-target="#lb-ui8x5w6Dsp">
+                            <div class="icon-wrapper">
+                                <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                            </div>
+                        </div>
+                        <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7"><strong>Web
+                                Design</strong></h6>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item gallery-image">
+                        <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal"
+                            data-target="#ui8x5w6Dsp-modal" data-bs-target="#ui8x5w6Dsp-modal">
+                            <img class="w-100" src="../../assets/images/mbr-6.jpg" alt="" data-slide-to="3"
+                                data-bs-slide-to="3" data-target="#lb-ui8x5w6Dsp" data-bs-target="#lb-ui8x5w6Dsp">
+                            <div class="icon-wrapper">
+                                <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
+                            </div>
+                        </div>
+                        <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7"><strong>Art
+                                Design</strong></h6>
+                    </div>
+                </div>
+
+                <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="ui8x5w6Dsp-modal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="carousel slide carousel-fade" id="lb-ui8x5w6Dsp" data-ride="carousel"
+                                    data-bs-ride="carousel" data-interval="5000" data-bs-interval="5000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="../../assets/images/mbr-596x397.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="../../assets/images/mbr-3.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="../../assets/images/mbr-4.jpg" alt="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="../../assets/images/mbr-6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <ol class="carousel-indicators">
+                                        <li data-slide-to="0" data-bs-slide-to="0" class="active"
+                                            data-target="#lb-ui8x5w6Dsp" data-bs-target="#lb-ui8x5w6Dsp"></li>
+                                        <li data-slide-to="1" data-bs-slide-to="1" data-target="#lb-ui8x5w6Dsp"
+                                            data-bs-target="#lb-ui8x5w6Dsp"></li>
+                                        <li data-slide-to="2" data-bs-slide-to="2" data-target="#lb-ui8x5w6Dsp"
+                                            data-bs-target="#lb-ui8x5w6Dsp"></li>
+                                        <li data-slide-to="3" data-bs-slide-to="3" data-target="#lb-ui8x5w6Dsp"
+                                            data-bs-target="#lb-ui8x5w6Dsp"></li>
+                                    </ol>
+                                    <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    </a>
+                                    <a class="carousel-control-prev carousel-control" role="button" data-slide="prev"
+                                        data-bs-slide="prev" href="#lb-ui8x5w6Dsp">
+                                        <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
+                                        <span class="sr-only visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next carousel-control" role="button" data-slide="next"
+                                        data-bs-slide="next" href="#lb-ui8x5w6Dsp">
+                                        <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
+                                        <span class="sr-only visually-hidden">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="image1 cid-sFF75ZhH2d" id="image1-b">
+
+
+
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="image-wrapper">
+                            <img src="../../assets/images/mbr-3.jpeg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="text-wrapper">
+                            <h3 class="mbr-section-title mbr-fonts-style mb-3 display-2">
+                                <strong>About Me</strong></h3>
+                            <p class="mbr-text mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis
+                                sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa.
+                                Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta
+                                dapibus rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus.&nbsp;<br>
+                                <br>Suspendisse porta augue in massa euismod, vitae bibendum tellus vestibulum.
+                                Phasellus egestas eu neque in mattis. Sed ultricies massa sit amet mollis molestie.
+                                Donec dignissim ut lectus sit amet sodales. Integer condimentum dui posuere feugiat
+                                finibus. Morbi ligula ante, tempor id dictum ut, dapibus ut nulla. Duis lorem orci,
+                                maximus ut tempor non, bibendum eu odio. Cras non metus lectus. Donec vulputate, dui eu
+                                ultricies consectetur, est mi tincidunt augue, nec blandit ex nunc sit amet nisl. Nam
+                                nibh libero, laoreet interdum blandit vitae, convallis at eros. Aliquam id ex eu magna
+                                eleifend facilisis id in risus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-bs-version="5.1" class="clients2 cid-sFF3mUy3tz" id="clients2-4">
+
+
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../../assets/images/1.png" alt="">
+                            </div>
+                            <div class="card-box align-center">
+
+                                <h5 class="card-title mbr-fonts-style mb-3 display-5">
+                                    <strong>My Client</strong></h5>
+                                <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna
+                                    eget mollis.&nbsp;</p>
+                                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="#">Learn
+                                        More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../../assets/images/2.png" alt="">
+                            </div>
+                            <div class="card-box align-center">
+
+                                <h5 class="card-title mbr-fonts-style mb-3 display-5"><strong>My Client</strong></h5>
+                                <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna
+                                    eget mollis. </p>
+                                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="#">Learn
+                                        More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../../assets/images/3.png" alt="">
+                            </div>
+                            <div class="card-box align-center">
+
+                                <h5 class="card-title mbr-fonts-style mb-3 display-5"><strong>My Client</strong></h5>
+                                <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna
+                                    eget mollis. </p>
+                                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="#">Learn
+                                        More</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       <!-- <section data-bs-version="5.1" class="testimonails3 carousel slide testimonials-slider cid-sFF3oey64R"
+            data-interval="false" data-bs-interval="false" id="testimonials3-5">
+            <div class="text-center container">
+                <h3 class="mb-4 mbr-fonts-style display-2">
+                    <strong>What My Clients Say</strong>
+                </h3>
+
+                <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel"
+                    data-bs-ride="carousel" data-interval="8000" data-bs-interval="8000">
+                    <div class="carousel-inner">
+
+
+                        <div class="carousel-item">
+                            <div class="user col-md-8">
+                                <div class="user_image">
+                                    <img src="../../assets/images/team3.jpg">
+                                </div>
+                                <div class="user_text mb-4">
+                                    <p class="mbr-fonts-style display-7">
+                                        Themes in the Mobirise website builder offer multiple blocks: intros, sliders,
+                                        galleries, forms, articles, and so on. Start a project and click on the red plus
+                                        buttons to see the blocks available for your theme.
+                                    </p>
+                                </div>
+                                <div class="user_name mbr-fonts-style mb-2 display-7">
+                                    <strong>Alexa</strong>
+                                </div>
+                                <div class="user_desk mbr-fonts-style display-7">
+                                    Client
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="user col-md-8">
+                                <div class="user_image">
+                                    <img src="../../assets/images/team2.jpg">
+                                </div>
+                                <div class="user_text mb-4">
+                                    <p class="mbr-fonts-style display-7">
+                                        Themes in the Mobirise website builder offer multiple blocks: intros, sliders,
+                                        galleries, forms, articles, and so on. Start a project and click on the red plus
+                                        buttons to see the blocks available for your theme.
+                                    </p>
+                                </div>
+                                <div class="user_name mbr-fonts-style mb-2 display-7">
+                                    <strong>Linda</strong>
+                                </div>
+                                <div class="user_desk mbr-fonts-style display-7">
+                                    Client
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="user col-md-8">
+                                <div class="user_image">
+                                    <img src="../../assets/images/team4.jpg">
+                                </div>
+                                <div class="user_text mb-4">
+                                    <p class="mbr-fonts-style display-7">
+                                        Themes in the Mobirise website builder offer multiple blocks: intros, sliders,
+                                        galleries, forms, articles, and so on. Start a project and click on the red plus
+                                        buttons to see the blocks available for your theme.
+                                    </p>
+                                </div>
+                                <div class="user_name mbr-fonts-style mb-2 display-7">
+                                    <strong>Ann</strong></div>
+                                <div class="user_desk mbr-fonts-style display-7">
+                                    Client</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-controls">
+                        <a class="carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev">
+                            <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont"></span>
+                            <span class="sr-only visually-hidden">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" role="button" data-slide="next" data-bs-slide="next">
+                            <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont"></span>
+                            <span class="sr-only visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+    </div>
+</template>
+
+<script setup>
+    useHead({
+        title: 'Creator Page',
+    })
+</script>

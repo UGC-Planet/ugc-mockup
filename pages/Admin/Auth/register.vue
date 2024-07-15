@@ -1,46 +1,109 @@
 <template>
-    <v-card class="mx-auto" max-width="344" title="User Registration">
-        <v-container>
-            <v-text-field v-model="first" color="primary" label="First name" variant="underlined"></v-text-field>
+    <div>
+        <section data-bs-version="5.1" class="header01 operationm5 cid-uisnHTXnez mbr-fullscreen" id="header01-1s">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="content-wrapper">
 
-            <v-text-field v-model="last" color="primary" label="Last name" variant="underlined"></v-text-field>
+                            <div class="log-in register-page">
+                                <div class="div">
+                                    <div class="overlap">
+                                        <img class="star" src="../../../assets/images/Star 6.svg" />
+                                        <div class="ellipse-3"></div>
+                                        <div class="ellipse-4"></div>
+                                        <div class="ellipse-5"></div>
+                                        <img class="unsplash"
+                                            src="../../../assets/images/emil-jarfelt-tDFqKW3xWso-unsplash.jpg" />
+                                        <div class="rectangle-2"></div>
+                                        <div class="frame-11">
+                                            <h2 class="frame-11-h2">Create an Account</h2>
 
-            <v-text-field v-model="email" color="primary" label="Email" variant="underlined"></v-text-field>
+                                            <v-btn><img style="height:28px;" src="../../../assets/images/Google.svg"
+                                                    alt="">&nbsp;Register with Google</v-btn>
 
-            <v-text-field v-model="password" color="primary" label="Password" placeholder="Enter your password"
-                variant="underlined"></v-text-field>
+                                            <v-btn><img src="../../../assets/images/Facebook.svg" alt="">&nbsp;Register
+                                                with Facebook</v-btn>
 
-            <v-checkbox v-model="terms" color="secondary" label="I agree to site terms and conditions"></v-checkbox>
-        </v-container>
+                                            <v-divider></v-divider>
+                                            <h5>Or Register with Email</h5>
+                                            <form>
+                                                <v-text-field prepend-icon="fas fa-user" v-model="name"
+                                                    label="Username"></v-text-field>
 
-        <v-divider></v-divider>
+                                                <v-text-field prepend-icon="fas fa-user" v-model="name" label="Email">
+                                                </v-text-field>
 
-        <v-card-actions>
-            <v-spacer></v-spacer>
+                                                <v-text-field prepend-icon="fas fa-lock" v-model="password"
+                                                    label="Password"></v-text-field>
 
-            <v-btn color="success">
-                Complete Registration
+                                                <v-text-field prepend-icon="fas fa-lock" v-model="password"
+                                                    label="Confirm Password"></v-text-field>
 
-                <v-icon icon="mdi-chevron-right" end></v-icon>
-            </v-btn>
-        </v-card-actions>
-    </v-card>
+                                                <v-checkbox v-model="checkbox" label="Save Password" type="checkbox"
+                                                    value="1"></v-checkbox>
+
+                                                <v-checkbox v-model="checkbox" label="I agree to the Term of Use"
+                                                    type="checkbox" value="1"></v-checkbox>
+
+                                                <v-checkbox v-model="checkbox"
+                                                    label="I agree to recieve e-mail from UGC. You can unsubscribe at anytme"
+                                                    type="checkbox" value="1"></v-checkbox>
+
+                                                <v-btn class="me-4" type="submit" color="purple" rounded size="x-large">
+                                                    Sign In
+                                                </v-btn>
+
+                                                <div style="text-align: center;">Already have an account? <a
+                                                        href="/admin/auth/login">Sign In</a></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="rectangle-4"></div>
+                                    <div class="group-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="decor-wrapper">
+                        <div class="decor-wrap decor_1"></div>
+                        <div class="decor-wrap decor_2"></div>
+                        <div class="decor-wrap decor_3"></div>
+                        <div class="decor-wrap decor_4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 </template>
 
 <script>
     export default {
         data: () => ({
-            first: null,
-            last: null,
+            form: false,
             email: null,
             password: null,
-            terms: false,
+            loading: false,
         }),
+
+        methods: {
+            onSubmit() {
+                if (!this.form) return
+
+                this.loading = true
+
+                setTimeout(() => (this.loading = false), 2000)
+            },
+            required(v) {
+                return !!v || 'Field is required'
+            },
+        },
     }
 </script>
 
 <script setup>
     useHead({
-        title: 'Register',
+        title: 'Welcome back to UGC Planet',
     });
 </script>

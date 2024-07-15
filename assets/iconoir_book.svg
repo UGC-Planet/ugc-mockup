@@ -1,0 +1,10 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="iconoir:book">
+<rect x="2" y="2" width="66" height="66" rx="10" stroke="#665A9C" stroke-width="4"/>
+<g id="Group">
+<path id="Vector" d="M11.667 55.4167V14.5833C11.667 13.0362 12.2816 11.5525 13.3755 10.4585C14.4695 9.36458 15.9532 8.75 17.5003 8.75H56.5837C57.0478 8.75 57.4929 8.93437 57.8211 9.26256C58.1493 9.59075 58.3337 10.0359 58.3337 10.5V48.7492M17.5003 49.5833H58.3337M17.5003 61.25H58.3337" stroke="#665A9C" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector_2" d="M17.5003 61.25C15.9532 61.25 14.4695 60.6354 13.3755 59.5415C12.2816 58.4475 11.667 56.9638 11.667 55.4167C11.667 53.8696 12.2816 52.3859 13.3755 51.2919C14.4695 50.1979 15.9532 49.5833 17.5003 49.5833" stroke="#665A9C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M26.25 20.4167H43.75" stroke="#665A9C" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

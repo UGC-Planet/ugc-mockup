@@ -27,14 +27,14 @@ DB_SSL=false
 
 # Directus Credentials
 
-DIRECTUS_URL='http://meeovicms.com:00000/'
+DIRECTUS_URL='http://example.com:00000/'
 DIRECTUS_TOKEN='-'
 DIRECTUS_EMAIL=
 DIRECTUS_PASSWORD=
 
 # Meilisearch Credentials
 
-HOSTURL='https://meeovicms.com:7777/'
+HOSTURL='https://example.com:7777/'
 SEARCH_APIKEY='<your_public_key>'
 ADMIN_APIKEY='<your_secret_key>'
 
@@ -54,5 +54,5 @@ GQL_HEADERS=''
 
 # Keycloak Credentials
 
-KEYCLOAK_API_URL='https://meeovicms.com:1000'
+KEYCLOAK_API_URL='https://example.com:1000'
 KEYCLOAK_CLIENTID=''

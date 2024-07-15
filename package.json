@@ -1,27 +1,25 @@
 {
-   "name": "alternate-template",
-   "version": "0.0.4",
-   "description": "This is a template for the Meeovi.",
+   "name": "ugc-template",
+   "version": "0.0.6",
+   "description": "This is a template for ugcplanet.",
    "author": "Sebastian Hilton (https://www.sebastianhilton.com)",
-   "homepage": "https://www.meeovi.com",
+   "homepage": "https://www.ugcplanet.com",
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Meeovi/meeovi-frontend"
+      "url": "git+https://github.com/ugcplanet/ugcplanet"
    },
    "bugs": {
-      "url": "https://github.com/Meeovi/meeovi-frontend/issues"
+      "url": "https://github.com/ugcplanet/ugcplanet/issues"
    },
    "license": "MIT",
    "private": true,
    "scripts": {
-      "alternate-commit": "git add . && git commit -m \"ready for update\"",
-      "alternate-update": "git pull \"https://github.com/Meeovi/meeovi-frontend\"",
-      "build": "nuxt build && mesh build",
-      "start": "mesh start --port 4001",
+      "ugc-commit": "git add . && git commit -m \"ready for update\"",
+      "ugc-update": "git pull \"https://github.com/ugcplanet/ugcplanet\"",
+      "build": "nuxt build",
       "dev": "nuxt dev",
       "ts-node": "ts-node -r tsconfig-paths/register --compiler-options '{\"module\":\"CommonJS\"}'",
       "generate": "nuxt generate",
-      "prebuild": "mesh build",
       "preview": "nuxt preview",
       "postinstall": "nuxt prepare",
       "all": "npm-run-all --parallel start dev"
@@ -31,7 +29,7 @@
       "@nuxtjs/apollo": "next",
       "@types/node": "^16.11.10",
       "graphql": "latest",
-      "nuxt": "latest",
+      "nuxt": "v3.12.3",
       "typescript": "latest"
    },
    "dependencies": {
@@ -45,7 +43,9 @@
       "graphql-tag": "^2.12.6",
       "nuxt-security": "^0.10.1",
       "sass": "^1.57.0",
+      "socicon": "^3.0.5",
       "ts-node": "^10.9.1",
+      "vee-validate": "^4.13.2",
       "vuetify": "latest"
    }
 }
