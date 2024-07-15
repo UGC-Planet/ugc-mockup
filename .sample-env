@@ -1,4 +1,4 @@
-# Information here will appear across AlternateCMS
+# Information here will appear across UGC Planet
 
 # Database URL
 
@@ -10,11 +10,6 @@ MY_SQL=''
 
 SQLITE_URL='file://server/config/database/main.db'
 
-# Supabase URL and Credentials (Supabase is not required, but recommended)
-
-YOUR_SUPABASE_URL=''
-YOUR_SUPABASE_KEY=''
-
 # DATABASE DETAILS
 
 DB_HOST=''
@@ -24,13 +19,6 @@ DB_PASSWORD=''
 DB_DATABASE='postgres'
 DB_SCHEMA=''
 DB_SSL=false
-
-# Directus Credentials
-
-DIRECTUS_URL='http://example.com:00000/'
-DIRECTUS_TOKEN='-'
-DIRECTUS_EMAIL=
-DIRECTUS_PASSWORD=
 
 # Meilisearch Credentials
 
@@ -51,8 +39,3 @@ SENTRY_DSN=''
 
 GQL_HOST='http://localhost:8087/v1/graphql'
 GQL_HEADERS=''
-
-# Keycloak Credentials
-
-KEYCLOAK_API_URL='https://example.com:1000'
-KEYCLOAK_CLIENTID=''

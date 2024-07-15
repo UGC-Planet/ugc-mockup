@@ -13,8 +13,8 @@ Platform for Creators
 
 ## Steps to Install - 10 Minute Install
 
-1. git clone https://github.com/ugcplanet
-2. cd ugcplanet
+1. git clone https://github.com/ugc-mockup
+2. cd ugc-mockup
 3. npm install
 4. npm run dev
 

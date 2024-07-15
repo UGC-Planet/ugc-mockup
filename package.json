@@ -6,23 +6,22 @@
    "homepage": "https://www.ugcplanet.com",
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/ugcplanet/ugcplanet"
+      "url": "git+https://github.com/bastianhilton/ugc-mockup"
    },
    "bugs": {
-      "url": "https://github.com/ugcplanet/ugcplanet/issues"
+      "url": "https://github.com/bastianhilton/ugc-mockup/issues"
    },
    "license": "MIT",
    "private": true,
    "scripts": {
       "ugc-commit": "git add . && git commit -m \"ready for update\"",
-      "ugc-update": "git pull \"https://github.com/ugcplanet/ugcplanet\"",
+      "ugc-update": "git pull \"https://github.com/bastianhiltonugc-mockup\"",
       "build": "nuxt build",
       "dev": "nuxt dev",
       "ts-node": "ts-node -r tsconfig-paths/register --compiler-options '{\"module\":\"CommonJS\"}'",
       "generate": "nuxt generate",
       "preview": "nuxt preview",
-      "postinstall": "nuxt prepare",
-      "all": "npm-run-all --parallel start dev"
+      "postinstall": "nuxt prepare"
    },
    "devDependencies": {
       "@nuxt/content": "^2.3.0",
