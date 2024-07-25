@@ -20,13 +20,13 @@
                                             <h2 class="frame-11-h2">Create an Account</h2>
 
                                             <v-btn><img style="height:28px;" src="../../../assets/images/Google.svg"
-                                                    alt="">&nbsp;Register with Google</v-btn>
+                                                    alt="">&nbsp;Signup with Google</v-btn>
 
-                                            <v-btn><img src="../../../assets/images/Facebook.svg" alt="">&nbsp;Register
+                                            <v-btn><img src="../../../assets/images/Facebook.svg" alt="">&nbsp;Signup
                                                 with Facebook</v-btn>
 
                                             <v-divider></v-divider>
-                                            <h5>Or Register with Email</h5>
+                                            <h5>Or Signup with Email</h5>
                                             <form>
                                                 <v-text-field prepend-icon="fas fa-user" v-model="name"
                                                     label="Username"></v-text-field>
@@ -51,11 +51,11 @@
                                                     type="checkbox" value="1"></v-checkbox>
 
                                                 <v-btn class="me-4" type="submit" color="purple" rounded size="x-large">
-                                                    Sign In
+                                                    Sign Up
                                                 </v-btn>
 
                                                 <div style="text-align: center;">Already have an account? <a
-                                                        href="/admin/auth/login">Sign In</a></div>
+                                                        href="/admin/auth/login">Sign Up</a></div>
                                             </form>
                                         </div>
                                     </div>

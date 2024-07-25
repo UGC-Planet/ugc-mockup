@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section data-bs-version="5.1" class="footer1 programm5 cid-uhtvexKgyX" once="footers" id="footer1-x">
+        <section data-bs-version="5.1" class="footer1 programm5 cid-ujzLBCh99h" id="footer1-1t">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">

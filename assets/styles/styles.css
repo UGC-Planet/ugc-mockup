@@ -198,14 +198,103 @@ body {
   margin-top: 25%;
 }
 
+/******************** Pages CSS *************/
+
+.features2 {
+  width: 100% !important;
+  margin-right: 0px !important;
+}
+
+.features2 p {
+  color: black !important;
+  text-align: center;
+}
+
+.features2 .row {
+  margin-left: 10%;
+}
+
+.features2 .mbr-iconfont {
+  width: 35px;
+  color: black !important;
+  font-weight: bold;
+}
+
+.resourceSection {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.resourceSection h4 {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.resourceTrendingToolbar {
+  margin: 10% !important;
+  display: inline-flex;
+  color: black;
+}
+
+.resourceTrendingToolbar .v-toolbar-title {
+  font-size: 25px;
+}
+
+.resourceTrendingToolbar .v-chip {
+  margin-left: 20px;
+}
+
+.formulam5 p, .formulam5 h5 {
+  color: black !important;
+}
+
+.formulam5 .btn, .resourceSection .btn {
+  color: #0085C7 !important;
+}
+
+.info2 .card {
+  padding: 120px !important;
+}
+
+.leftSkill {
+  background-color: #9E88FB;
+  padding-top: 15px !important;
+}
+
+.rightRecognition {
+  background-color: #F4C300;
+  padding-top: 125px !important
+}
+
+/******************** About Us Page CSS *************/
+
+.header2 {
+  margin-top: 5px !important;
+}
+
 /******************** Footer CSS *************/
 
 .footer1 {
   background-color: transparent !important;
+  background-image: url(../images/vector-6671-1.svg) !important;
+  background-position: top;
+  position: relative;
+  height: 765px;
+  width: 100% !important;
+  top: -1px;
+}
+
+.footer1 .container {
+  position: relative;
+  top: 45%;
+}
+
+.footer1 a {
+  color: white;
 }
 
 .cid-uisnHTXnez .decor-wrapper {
-  bottom: 50% !important;
+  top: 50% !important;
 }
 /******************** Figma CSS *************/
 .log-in {
@@ -262,7 +351,7 @@ body {
   position: relative;
   height: 745px;
   top: -1px;
-  background-image: url(./img/vector-6671.svg);
+  background-image: url(../images/vector-6671.svg);
   background-size: 100% 100%;
 }
 
@@ -296,7 +385,7 @@ body {
   position: relative;
   width: 57px;
   height: 87px;
-  background-image: url(./img/layer-0.png);
+  background-image: url(../images/layer-0.png);
   background-size: 100% 100%;
 }
 
@@ -532,7 +621,7 @@ body {
   position: relative;
   width: 57px;
   height: 67.5px;
-  background-image: url(./img/image.png);
+  background-image: url(../images/image.png);
   background-size: 100% 100%;
 }
 
@@ -1240,7 +1329,7 @@ body {
   position: relative;
   height: 745px;
   top: -1px;
-  background-image: url(./img/vector-6671.svg);
+  background-image: url(../images/vector-6671.svg);
   background-size: 100% 100%;
 }
 
@@ -1274,7 +1363,7 @@ body {
   position: relative;
   width: 57px;
   height: 87px;
-  background-image: url(./img/layer-0.png);
+  background-image: url(../images/layer-0.png);
   background-size: 100% 100%;
 }
 
@@ -1510,7 +1599,7 @@ body {
   position: relative;
   width: 57px;
   height: 67.5px;
-  background-image: url(./img/image.png);
+  background-image: url(../images/image.png);
   background-size: 100% 100%;
 }
 
@@ -2353,7 +2442,7 @@ body {
     position: relative;
     width: 57px;
     height: 87px;
-    background-image: url(./img/layer-0-2.png);
+    background-image: url(../images/layer-0-2.png);
     background-size: 100% 100%;
   }
   
@@ -3246,7 +3335,7 @@ body {
     height: 414px;
     top: -26px;
     left: -26px;
-    background-image: url(./img/iphone-13-13-pro-7.png);
+    background-image: url(../images/iphone-13-13-pro-7.png);
     background-size: 100% 100%;
   }
   
@@ -4159,7 +4248,7 @@ body {
     height: 250px;
     top: 670px;
     left: 767px;
-    background-image: url(./img/creators-image-1.png);
+    background-image: url(../images/creators-image-1.png);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -5160,7 +5249,7 @@ body {
     position: relative;
     height: 749px;
     top: -1px;
-    background-image: url(./img/vector-6671-1.svg);
+    background-image: url(../images/vector-6671-1.svg);
     background-size: 100% 100%;
   }
   
@@ -5185,7 +5274,7 @@ body {
     position: relative;
     width: 57px;
     height: 87px;
-    background-image: url(./img/layer-0.png);
+    background-image: url(../images/layer-0.png);
     background-size: 100% 100%;
   }
   
